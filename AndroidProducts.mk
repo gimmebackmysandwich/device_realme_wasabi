@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_wasabi.mk
+    $(LOCAL_DIR)/rr_wasabi.mk
+	
+COMMON_LUNCH_CHOICES := \
+    rr_wasabi-userdebug \
+    rr_wasabi-eng
