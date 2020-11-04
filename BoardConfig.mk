@@ -165,5 +165,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 # Treble
 BOARD_VNDK_VERSION := current
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Inherit from the proprietary version
 -include vendor/realme/wasabi/BoardConfigVendor.mk
