@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from wasabi device makefile
 $(call inherit-product, device/realme/wasabi/device.mk)
 
+# Inherit RR stuff
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_wasabi
 PRODUCT_DEVICE := wasabi
