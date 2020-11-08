@@ -167,5 +167,9 @@ BOARD_VNDK_VERSION := current
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# manifest and compatibility files
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Inherit from the proprietary version
 -include vendor/realme/wasabi/BoardConfigVendor.mk
