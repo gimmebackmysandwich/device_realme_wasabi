@@ -23,6 +23,7 @@ $(call inherit-product, device/realme/wasabi/device.mk)
 
 # Inherit RR stuff
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/data_only.mk)
 
 # RR Wallpapers
 BUILD_RR_WALLPAPERS := true
