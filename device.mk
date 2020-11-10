@@ -28,6 +28,12 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Inherit vendor
 $(call inherit-product, vendor/realme/wasabi/wasabi-vendor.mk)
 
+# Inherit GAPPs
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
+# Open GAPPs
+GAPPS_VARIANT  := stock
+
 # Define Dynamic Partition support
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
