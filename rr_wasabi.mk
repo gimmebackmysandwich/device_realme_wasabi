@@ -24,6 +24,9 @@ $(call inherit-product, device/realme/wasabi/device.mk)
 # Inherit RR stuff
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# RR Wallpapers
+BUILD_RR_WALLPAPERS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_wasabi
 PRODUCT_DEVICE := wasabi
