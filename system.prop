@@ -18,8 +18,4 @@ wifi.tethering.interface=ap0
 #
 
 ro.opengles.version=196610
-# for enabling ADB
- 
-persist.service.adb.enable=1
-persist.service.debuggable=1
-persist.sys.usb.config=mtp,adb
+

@@ -77,13 +77,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     wifi.tethering.interface=ap0 \
     wifi.direct.interface=p2p0
 
-# Enable ADB by default
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-	persist.sys.usb.config=adb,mtp \
-	persist.service.adb.enable=1 \
-	persist.service.debuggable=1 \
-	ro.adb.secure=0 \
-	ro.secure=0 \
-	ro.debuggable=1
-	
-	
