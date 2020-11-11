@@ -21,15 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from wasabi device makefile
 $(call inherit-product, device/realme/wasabi/device.mk)
 
-# Inherit RR stuff
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
-$(call inherit-product, vendor/rr/config/data_only.mk)
+# Inherit Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# RR Wallpapers
-BUILD_RR_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rr_wasabi
+PRODUCT_NAME := lineage_wasabi
 PRODUCT_DEVICE := wasabi
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := G90T Series

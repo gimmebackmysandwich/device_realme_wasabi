@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_wasabi.mk
+    $(LOCAL_DIR)/lineage_wasabi.mk
 	
 COMMON_LUNCH_CHOICES := \
-	rr_wasabi-user \
-    rr_wasabi-userdebug \
-    rr_wasabi-eng
+	lineage_wasabi-user \
+    lineage_wasabi-userdebug \
+    lineage_wasabi-eng

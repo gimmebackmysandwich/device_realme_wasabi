@@ -1,4 +1,4 @@
-Resurrection Remix device tree for the Realme 6 (RMX2001, RMX2002 and RMX2003) - Realme 6S / Realme 6i India / Realme Narzo (RMX2002)
+crDroid device tree for the Realme 6 (RMX2001, RMX2002 and RMX2003) - Realme 6S / Realme 6i India / Realme Narzo (RMX2002)
 =================================================
 The Realme 6 (codenamed _"RMX2001, RMX2002 and RMX2003"_) - Realme 6S / Realme 6i India / Realme Narzo (codenamed _"RMX2002"_) are mid-range smartphones from Realme.
 They was released in March, June and July 2020.
@@ -20,14 +20,4 @@ This device tree commonize them as Realme G90T series (codenamed _"wasabi"_)
 
 ## Device picture
 ![wasabi](https://cdn-files.kimovil.com/default/0004/34/thumb_333349_default_big.jpeg)
-=================================================
 
-## For successful build
-* Please replace these repos from resurrection remix with these ones
-https://github.com/TheMalachite/packages_services_Telecomm
-https://github.com/TheMalachite/packages_services_Telephony
-https://github.com/TheMalachite/frameworks_opt_telephony
-* Revert this commit 
-https://github.com/ResurrectionRemix/android_frameworks_base/commit/20c9af8127b98aa955d1f9657371b28420e64249
-* Apply this patch
-https://github.com/Lehkeda/realme6_patches/blob/main/fix_cannot_find_symbol_mState.provisioned.patch

@@ -1,7 +1,7 @@
 [
   {
     "remote"     : "github",
-    "repository" : "TheMalachite/vendor_realme_wasabi",
+    "repository" : "lehkeda/vendor_realme_wasabi",
     "target_path": "vendor/realme/wasabi",
     "branch"     : "ten"
   }
