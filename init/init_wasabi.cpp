@@ -28,7 +28,7 @@
 #include "property_service.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
+using android::init::PropertyInit;
 
 void property_override(char const prop[], char const value[])
 {
