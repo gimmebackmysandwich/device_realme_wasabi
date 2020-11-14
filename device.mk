@@ -138,3 +138,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Open GAPPs
 #GAPPS_VARIANT  := nano
 #$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
+# Offline charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+	
