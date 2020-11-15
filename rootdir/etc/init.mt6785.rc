@@ -1,4 +1,5 @@
 import /system/etc/init/init.devicesetting.rc
+import /system/etc/init/init.swap.rc
 
 on init
     setprop sys.usb.ffs.aio_compat 1

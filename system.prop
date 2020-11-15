@@ -3,3 +3,6 @@
 #
 ro.product.property_source_order=odm,vendor,product,system
 
+# zRAM
+ro.config.zram.disksize=1073741824
+ro.config.swappiness=10
