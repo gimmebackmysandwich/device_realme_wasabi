@@ -38,3 +38,20 @@ on boot
     chmod 0666 /dev/video0
     chmod 0666 /dev/video1
 	
+# Healthd can trigger a full boot from charger mode by signaling this
+# property when the power button is held.
+on property:sys.boot_from_charger_mode=1
+    class_stop charger
+    trigger late-init
+
+service charger /system/bin/charger
+    class sec-charger
+    user root
+    group system radio input
+    capabilities SYS_BOOT
+    critical
+
+on charger
+	class_start charger
+	
+

@@ -87,7 +87,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
     init.devicesetting.rc \
-    fstab.mt6785
+    fstab.mt6785 \
+	fstab.swap \
+	init.swap.rc \
+	set_zram.sh
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
