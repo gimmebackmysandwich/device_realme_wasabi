@@ -1,6 +1,6 @@
 Resurrection Remix device tree for the Realme 6 (RMX2001, RMX2002 and RMX2003) - Realme 6S / Realme 6i India / Realme Narzo (RMX2002)
 =================================================
-This is a device tree of Wasabi forked from Lehkeda's kernel source for backup.
+This is a device tree of Wasabi forked from Lehkeda's device tree repo for backup.
 
 The Realme 6 (codenamed _"RMX2001, RMX2002 and RMX2003"_) - Realme 6S / Realme 6i India / Realme Narzo (codenamed _"RMX2002"_) are mid-range smartphones from Realme.
 They was released in March, June and July 2020.
